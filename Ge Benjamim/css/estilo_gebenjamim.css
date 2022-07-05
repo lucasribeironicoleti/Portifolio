@@ -1,3 +1,18 @@
+/* #131240
+   #f2f2f2
+   #f28177
+   #000000
+   #ffffff
+*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 #logotipo{
     max-width:30px;
     max-height:150px;
@@ -7,8 +22,8 @@
 }
 nav{
     background-color: #f2f2f2;
-    border-bottom: 1px solid #d9d9d9;
-    border-top: 1px solid #929292;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
     height: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -20,7 +35,7 @@ nav{
     margin-left: 20px;
 }
 .banner{
-    background-color: #f2f2f2;
+    background-color: #f28177;
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #929292;
     height: 20%;
@@ -28,4 +43,29 @@ nav{
     margin-top: 0px;
     padding-bottom: 0px;
     padding-top: 100px;
+}
+#foto{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+.conteudo{
+    align-items: center;
+    text-align: justify;
+}
+.btn{
+    background-color: #131240;
+    border: 1px solid #d9d9d9;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
